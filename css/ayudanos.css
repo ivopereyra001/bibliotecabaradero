@@ -1,0 +1,72 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+.Categorias{
+    width: 80%;
+    margin: auto;
+}
+/* Navegacion*/
+.nav_options ul{
+    align-items: center;
+}
+nav .hamburgesa{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    background-color: #FF7E0D ;
+    padding: 5px;
+    height: 50px;
+    margin: 0px;
+    align-items: center;
+    
+}
+.nav_logo .logo{
+    padding-left: 70px;
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+
+}
+nav li{
+    padding-right: 20px;
+    list-style: none;
+    display: inline-block;   
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 20px ;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+    height: 20px;
+    
+}
+
+.nav_busqueda{
+    padding-left: 0px;
+    display: flex;
+    margin-left: 50px;
+}
+.nav_busqueda form {
+    padding: 15px;
+}
+
+
+.nav_busqueda .texto_busqueda{
+    border-radius: 5px;
+    padding-right: 20px;
+    height: 20px;
+    border: none;
+}
+

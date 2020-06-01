@@ -1,0 +1,89 @@
+@media (max-width:600px){
+    .menu{
+        visibility: hidden;
+    }
+    nav li{
+        padding-right: 10px;
+        list-style: none;
+        
+        
+    }
+    nav li a{
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .nav_logo .logo{
+        padding-left: 40px;
+        height: 100%;
+    }
+    .nav_busqueda{
+        margin-left: -500px;
+    }
+    .texto_busqueda{
+        visibility: hidden;
+    }
+    #buscar{
+        font-size: 23px;
+        margin-left: -90px;
+    }
+    .registrarse{
+        margin-left: -250px;
+    }
+
+    /*slider*/
+    .home_slider{
+        box-shadow: 1px 1px 8px 3px grey;
+        display: flex;
+        height: 200px;
+    }   
+    .home_slider_image img{
+        height: 130px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    .home_slider_text{
+        width: 40px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        
+    }  
+    
+    .home_slider_title{
+        margin-top: -10px ;
+        font-size: 12px;
+    }
+    
+    .home_slider_quote{
+      visibility: hidden;
+    
+    }
+    
+    .home_slider_button button{
+        padding: 7px ;
+        background-color: #00B2CA;
+        color: #000;
+        font-size: 15px;
+        border:none;
+        border-radius: 3px;
+        color: white;
+        margin: 70px -25px;
+    }
+    /*Section libros*/
+    .home_news_books{
+        display: inherit;
+        margin-top: -100px;
+        
+        
+    }
+    .home_news_books .arrow{
+        visibility: hidden;
+    }
+    .home_news_book {
+    width: 200px;
+    height: 300px;
+    padding-left: 70px;
+    padding-bottom: 60px;
+}
+}

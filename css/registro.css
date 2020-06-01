@@ -1,0 +1,251 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+.registro{
+    width: 80%;
+    margin: auto;
+}
+/* Navegacion*/
+
+
+nav .hamburgesa{
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+nav{
+    display: flex;
+    background-color: #FF7E0D ;
+    padding: 5px;
+    height: 50px;
+    align-items: center;
+    
+}
+.nav_options ul {
+    align-items: center;
+}
+.nav_logo .logo{
+    padding-left: 70px;
+    height: 100%;
+}
+
+nav ul{
+    display: flex;
+
+}
+nav li{
+    padding-right: 20px;
+    list-style: none;
+    
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 20px ;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: whitesmoke;
+    height: 20px;
+    
+}
+
+.nav_busqueda{
+    padding-left: 20px;
+    display: flex;
+}
+.nav_busqueda form {
+    padding: 15px;
+}
+
+
+.nav_busqueda .texto_busqueda{
+    border-radius: 5px;
+    margin-left: -25px;
+    height: 20px;
+    border: none;
+}
+
+#buscar{
+    height: 20px;
+    font-size: 20px;
+    padding-right: 15px;
+    color: white;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+.registrarse{
+    background-color: #00B2CA;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+/*Registro*/
+.registro{
+    width: 400px;
+}
+.formulario{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: -20px;
+    padding-top: 20px;
+    
+}
+
+.registro h1{
+    background-color: #FF7E0D;
+    padding: 5px;
+    text-align: center;
+    color: white
+}
+
+form{
+    padding-left: 15px;
+}
+form  label{
+    width: 100%;
+    font-size: 20px;
+    
+   
+}
+form input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.iconos{
+    color: grey;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.iconos i{
+    padding-top: 20px;
+}
+#icono1{
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+
+
+
+.continuar1 a{
+    padding: 10px;
+    background-color: #00B2CA; 
+    color: white;
+    text-decoration: none;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+    
+}
+.continuar1{
+    margin-top: -50px;
+}
+
+/*Registro 2*/
+.titulo_de_registro{
+    font-size: 30px;
+    background-color: #FF7E0D;
+    width: 80%;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 20px;
+}
+.opciones{
+    display:flex;
+}
+
+.opcion{
+    height: 500px;
+    width: 400px;
+   
+    padding: 20px;
+}
+.opcion img{
+    height: 400px;
+    width:100%;
+}
+.opcion h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -80px;
+    color: rgb(59, 58, 58);
+}
+
+
+.continuar{
+    margin-left: 600px;
+    margin-top: -150px ;
+}
+.eleccion_tipo_de_ususario a{
+    background-color: #00B2CA;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+   
+}
+
+.check{
+    margin-top: -80px;
+    margin-left: 200px;
+}
+
+/*Registro3*/
+.eleccion_tipo_de_genero h1{
+    font-size: 30px;
+    background-color: #FF7E0D;
+    width: 70%;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 20px;
+}
+.fila{
+    display: flex;
+    margin-left: 230px;
+}
+
+.genero{
+    display: flex;
+    padding: 20px;
+}
+.genero img{
+    width: 100px;
+    height: 100px;
+}
+.continuar3 a{
+    background-color: #00B2CA;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.genero p{
+    font-size: 23px;
+    color: rgb(41, 40, 40);
+}
+
+.genero .check3 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.continuar3{
+    margin-left: 600px;
+    margin-top:  50px;
+}
